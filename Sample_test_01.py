@@ -15,8 +15,8 @@ class Merchant_logout(unittest.TestCase):
 
 	def setUp(self):
 		self.longMessage = True
-		self.driver = webdriver.Firefox()
-		# self.driver = webdriver.Chrome()
+		# self.driver = webdriver.Firefox()
+		self.driver = webdriver.Chrome()
 
 		self.verificationErrors = []
 		self.accept_next_alert = True
